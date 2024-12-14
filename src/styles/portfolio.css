@@ -1,0 +1,82 @@
+.portfolio-container {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #020024, #001f4d, #00b3b3);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.portfolio-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 2.5s ease-in-out;
+
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.project-image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.project-image-wrapper:hover .project-image {
+    transform: scale(1.1);
+}
+
+.project-title {
+    font-size: 1.6rem;
+    margin: 15px 0 10px;
+    color: #00eaff;
+}
+
+.project-description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #001f4d;
+    background: linear-gradient(135deg, #00b3b3, #001f4d);
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-link:hover {
+    background: linear-gradient(135deg, #001f4d, #00b3b3);
+    transform: scale(1.1);
+}
