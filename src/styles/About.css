@@ -13,14 +13,14 @@
     color: white;
     background: linear-gradient(to right, #020024, #154794, #13d1d1);
     z-index: 10;
-    opacity: 0.8;
+    opacity: 0.9;
   }
   
   .about-title {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #00b3b3;
+    color: white;
     animation: fadeIn 2s ease-in-out;
 
   }
@@ -48,12 +48,13 @@
   }
   
   ul li a {
-    color: #00b3b3;
+    color: orange;
     text-decoration: none;
   }
   
   ul li a:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
   @keyframes fadeIn {
     0% {

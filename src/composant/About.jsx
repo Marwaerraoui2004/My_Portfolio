@@ -37,7 +37,7 @@ export default function About() {
         <ul>
         <div>
             Email :                                  
-            <a href="mailto:marouaerraoui14@gmail.com" style={{color: "#00b3b3",textDecoration:"none"}}>
+            <a href="mailto:marouaerraoui14@gmail.com" style={{color: "orange",textDecoration:"none"}}>
                 marouaerraoui14@gmail.com
             </a>
         </div>      
