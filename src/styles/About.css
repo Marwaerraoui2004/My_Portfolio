@@ -1,10 +1,19 @@
+.backI {
+  height: 100%; 
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://cdn-cms.f-static.com/ready_uploads/media/1901/400_5cc9a507185c5.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .about-container {
     margin: 0 auto;
+    min-height: 100vh;
     padding: 20px;
     color: white;
-    background: linear-gradient(to right, #020024, #001f4d, #00b3b3);
+    background: linear-gradient(to right, #020024, #154794, #13d1d1);
     z-index: 10;
-    
+    opacity: 0.8;
   }
   
   .about-title {

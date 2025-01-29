@@ -3,6 +3,7 @@ import '../styles/About.css';
 
 export default function About() {
   return (
+    <div className='backI'>
     <div className="about-container">
       <h1 className="about-title">About Me</h1>
       <section className="about-content">
@@ -42,6 +43,7 @@ export default function About() {
         </div>      
         </ul>
       </section>
+    </div>
     </div>
   );
 }

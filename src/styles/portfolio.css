@@ -1,6 +1,10 @@
+.bgBody{
+    background-image: url('');
+}
+
 .portfolio-container {
     padding: 50px 20px;
-    background: linear-gradient(to right, #020024, #001f4d, #00b3b3);
+    background: linear-gradient(to right, #020024, #154794, #13d1d1);
     color: white;
     text-align: center;
     min-height: 100vh;

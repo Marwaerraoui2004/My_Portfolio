@@ -29,6 +29,7 @@ export default function Portfolio() {
     ];
 
     return (
+        <div className='bgBody'>
         <div className="portfolio-container">
             <h2 className="portfolio-title">My Portfolio</h2>
             <div className="projects-grid">
@@ -44,6 +45,7 @@ export default function Portfolio() {
                         </a>
                     </div>
                 ))}
+            </div>
             </div>
         </div>
     );
